@@ -11,5 +11,23 @@ namespace DoctorSchedule
         {
             _doctorList.Add(doc);
         }
+        
+        public void Delete(Doctor doc)
+        {
+            _doctorList.Remove(doc);
+        } 
+
+        public Doctor Get(string surname)
+        {
+            foreach (var doctor in _doctorList)
+            {
+                if (doctor.Surname == surname )
+                {
+                    return doctor;
+                }
+            }
+
+            return null;
+        }
     }
 }
