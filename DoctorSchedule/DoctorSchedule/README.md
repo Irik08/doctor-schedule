@@ -11,3 +11,7 @@ git commit -m "сообщение" - коммит;
 git push origin HEAD - отправить на удаленный репозиторий;
 
 на GitHub создать PullRequest и ждать;
+
+git branch - показывает локальные ветки;
+
+git branch -r - показывает удаленные ветки;
