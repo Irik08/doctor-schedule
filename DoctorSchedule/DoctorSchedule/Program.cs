@@ -22,8 +22,8 @@ namespace DoctorSchedule
             workday2.EndTime = new DateTime(2021, 11, 13, 10, 30, 0);
             doc2.WorkDays.Add(workday2);
 
-            Console.WriteLine($"Doctor {doc1.Name} {doc1.Surname} works on {doc1.WorkDays[0].Date.ToShortDateString()} from {doc1.WorkDays[0].StartTime.ToLongTimeString()} to {doc1.WorkDays[0].EndTime.ToLongTimeString()}");
-            Console.WriteLine($"Doctor {doc2.Name} {doc2.Surname} works on {doc2.WorkDays[0].Date.ToShortDateString()} from {doc2.WorkDays[0].StartTime.ToLongTimeString()} to {doc2.WorkDays[0].EndTime.ToLongTimeString()}");
+            Console.WriteLine($"Doctor {doc1.Name} {doc1.Surname} will work on {doc1.WorkDays[0].Date.ToShortDateString()} from {doc1.WorkDays[0].StartTime.ToLongTimeString()} to {doc1.WorkDays[0].EndTime.ToLongTimeString()}");
+            Console.WriteLine($"Doctor {doc2.Name} {doc2.Surname} will work on {doc2.WorkDays[0].Date.ToShortDateString()} from {doc2.WorkDays[0].StartTime.ToLongTimeString()} to {doc2.WorkDays[0].EndTime.ToLongTimeString()}");
 
 
         }
