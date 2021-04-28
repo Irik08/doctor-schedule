@@ -1,0 +1,13 @@
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\DoctorSchedule.exe
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\DoctorSchedule.deps.json
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\DoctorSchedule.runtimeconfig.json
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\DoctorSchedule.runtimeconfig.dev.json
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\DoctorSchedule.dll
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\DoctorSchedule.pdb
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.csprojAssemblyReference.cache
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.AssemblyInfoInputs.cache
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.AssemblyInfo.cs
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.csproj.CoreCompileInputs.cache
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.dll
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.pdb
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.genruntimeconfig.cache
