@@ -49,7 +49,10 @@ namespace DoctorSchedule
         public void Update(int id, Doctor doc)
         {
             if (_doctorDict.ContainsKey(id))
+            {
                 _doctorDict[id] = doc;
+            }
+                
             else
             {
                 Console.WriteLine("There is no this ID in the Repository");
