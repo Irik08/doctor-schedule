@@ -37,7 +37,7 @@ namespace DoctorSchedule
         {
             foreach (var doctor in _doctorDict.Values)
             {
-                if (doctor.Surname == surname )
+                if (doctor.Secind_Name == surname )
                 {
                     return doctor;
                 }

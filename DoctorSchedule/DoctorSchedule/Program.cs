@@ -54,7 +54,7 @@ namespace DoctorSchedule
 
         private static void DisplayInfo(Doctor doc)
         {
-            Console.WriteLine($"Doctor {doc.Id} {doc.Name} {doc.Surname} will work on {doc.WorkDays[0].Date.ToShortDateString()} from {doc.WorkDays[0].StartTime.ToLongTimeString()} to {doc.WorkDays[0].EndTime.ToLongTimeString()}");
+            Console.WriteLine($"Doctor {doc.Id} {doc.First_Name} {doc.Secind_Name} will work on {doc.WorkDays[0].Date.ToShortDateString()} from {doc.WorkDays[0].StartTime.ToLongTimeString()} to {doc.WorkDays[0].EndTime.ToLongTimeString()}");
         }
 
         
