@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DoctorSchedule
+namespace DoctorSchedule.Models
 {
-    public class WorkDay
+    class Appointment
     {
-        public readonly double timeForPerson = 20; 
+        public int Id { get; set; }
+        public int DoctorId { get; set; }
+        public int PatientId { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
     }
