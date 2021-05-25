@@ -11,3 +11,11 @@ C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj
 C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.dll
 C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.pdb
 C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.genruntimeconfig.cache
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mi\Documents\Projects\doctor-schedule\DoctorSchedule\DoctorSchedule\obj\Debug\netcoreapp3.1\DoctorSchedule.csproj.CopyComplete

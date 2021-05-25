@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Text;
+using Dapper;
+using System.Data.SqlClient;
+using System.Linq;
 
 namespace DoctorSchedule
 {
@@ -25,12 +29,29 @@ namespace DoctorSchedule
 
         public Doctor GetById(int doctorId)
         {
-            if (!_doctorDict.ContainsKey(doctorId))
+            try
             {
+                using (var connection = new SqlConnection("Server=DESKTOP-ELI56PS;Initial Catalog=ID_db;Integrated Security=True"))
+                {
+                    var parameters = new DynamicParameters();
+                    parameters.Add("@Id", doctorId);
+                    var reader = connection.ExecuteReader("p_Doctors_GetById", parameters, commandType: System.Data.CommandType.StoredProcedure);
+                    reader.Read();
+
+                    return new Doctor()
+                    {
+                        Id = reader.GetInt32(0),
+                        FirstName = reader.GetString(1),
+                        LastName = reader.GetString(2),
+                        Speciality = reader.GetString(3)
+                    };
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex);
                 return null;
             }
-
-            return _doctorDict[doctorId];
         }
 
         public Doctor GetBySurname(string surname)
