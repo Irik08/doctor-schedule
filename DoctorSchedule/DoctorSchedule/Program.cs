@@ -9,8 +9,8 @@ namespace DoctorSchedule
         static void Main(string[] args)
         {
             InitRepository();
-            CreateDoctors();
-            CreateWorkDays();
+            //CreateDoctors();
+            //CreateWorkDays();
             Display();
         }
 
@@ -21,10 +21,10 @@ namespace DoctorSchedule
 
         private static void CreateDoctors()
         {
-            var doc1 = new Doctor("Dmitrii", "Novikov", "Orthopedics");
-            _doctorRepository.Add(doc1);
-            var doc2 = new Doctor("Aleksandra", "Novikova", "General practice");
-            _doctorRepository.Add(doc2);
+            //var doc1 = new Doctor("Dmitrii", "Novikov", "Orthopedics");
+            //_doctorRepository.Add(doc1);
+            //var doc2 = new Doctor("Aleksandra", "Novikova", "General practice");
+            //_doctorRepository.Add(doc2);
         }
 
         private static void CreateWorkDays()
@@ -36,25 +36,23 @@ namespace DoctorSchedule
         private static void AddWorkDayToDoctor(DateTime date, DateTime start, DateTime end, int doctorId)
         {
             var workday = new WorkDay();
-            workday.Date = date;
             workday.StartTime = start;
             workday.EndTime = end;
             var doc = _doctorRepository.GetById(doctorId);
-            doc.WorkDays.Add(workday);
             _doctorRepository.Update(doctorId, doc);
         }
 
         private static void Display()
         {
-            var doc1 = _doctorRepository.GetById(0);
-            var doc2 = _doctorRepository.GetById(1);
+            var doc1 = _doctorRepository.GetById(1);
+            var doc2 = _doctorRepository.GetById(2);
             DisplayInfo(doc1);
             DisplayInfo(doc2);
         }
 
         private static void DisplayInfo(Doctor doc)
         {
-            Console.WriteLine($"Doctor {doc.Id} {doc.First_Name} {doc.Secind_Name} will work on {doc.WorkDays[0].Date.ToShortDateString()} from {doc.WorkDays[0].StartTime.ToLongTimeString()} to {doc.WorkDays[0].EndTime.ToLongTimeString()}");
+            Console.WriteLine($"Doctor # {doc.Id} {doc.FirstName} {doc.LastName} works in {doc.Speciality}");
         }
 
         
