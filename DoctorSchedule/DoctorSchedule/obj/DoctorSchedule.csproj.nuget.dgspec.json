@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mi\\Documents\\Projects\\doctor-schedule\\DoctorSchedule\\DoctorSchedule\\DoctorSchedule.csproj": {}
+    "/Users/irikgafiatullin/Documents/projects/c#/doctor-schedule/DoctorSchedule/DoctorSchedule/DoctorSchedule.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mi\\Documents\\Projects\\doctor-schedule\\DoctorSchedule\\DoctorSchedule\\DoctorSchedule.csproj": {
+    "/Users/irikgafiatullin/Documents/projects/c#/doctor-schedule/DoctorSchedule/DoctorSchedule/DoctorSchedule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mi\\Documents\\Projects\\doctor-schedule\\DoctorSchedule\\DoctorSchedule\\DoctorSchedule.csproj",
+        "projectUniqueName": "/Users/irikgafiatullin/Documents/projects/c#/doctor-schedule/DoctorSchedule/DoctorSchedule/DoctorSchedule.csproj",
         "projectName": "DoctorSchedule",
-        "projectPath": "C:\\Users\\mi\\Documents\\Projects\\doctor-schedule\\DoctorSchedule\\DoctorSchedule\\DoctorSchedule.csproj",
-        "packagesPath": "C:\\Users\\mi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mi\\Documents\\Projects\\doctor-schedule\\DoctorSchedule\\DoctorSchedule\\obj\\",
+        "projectPath": "/Users/irikgafiatullin/Documents/projects/c#/doctor-schedule/DoctorSchedule/DoctorSchedule/DoctorSchedule.csproj",
+        "packagesPath": "/Users/irikgafiatullin/.nuget/packages/",
+        "outputPath": "/Users/irikgafiatullin/Documents/projects/c#/doctor-schedule/DoctorSchedule/DoctorSchedule/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/irikgafiatullin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,12 +57,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
